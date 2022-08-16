@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample Suite">
+	<test  name="Login positive scenario">
+		<classes>
+			<class name="Testcase_Swaglabs.LOginpositivescenario"/>
+		</classes>
+	</test>
+	<test  name="Login with negative scenario">
+		<classes>
+			<class name="Testcase_Swaglabs.Negativetestcase01"/>
+		</classes>
+	</test>
+</suite> 

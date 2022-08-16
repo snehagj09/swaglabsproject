@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcase_Swaglabs.LOginpositivescenario">
+        <methods>
+          <include name="init"/>
+          <include name="endreport"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Testcase_Swaglabs.LOginpositivescenario -->
+      <class name="Testcase_Swaglabs.Negativetestcase01">
+        <methods>
+          <include name="login"/>
+          <include name="init"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- Testcase_Swaglabs.Negativetestcase01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
